@@ -1,0 +1,13 @@
+<?php
+
+// Datos de conexión a la base de datos
+$mi_conf = array(
+    'bd_host' => 'localhost',
+    'bd_login' => '',
+    'bd_password' => '',
+    'bd_database' => '',
+	'num_resultados_pagina' => 20
+);
+
+define ('NUM_RESULTADOS_PAGINA', 10);
+
