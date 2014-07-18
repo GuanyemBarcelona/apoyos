@@ -84,7 +84,9 @@
 
 		<div id="pagina" class="adhesiones">
 	<?php if (isset($_POST['dni']) && ($error == '')) { ?> 
-		<p class="aviso ok">Registrado con éxito. ¡Muchas gracias!</p>
+		<p class="aviso ok"><strong>¡Muchas gracias, tu firma ha sido registrada!</strong><br>
+		Nos hemos propuesto recoger 30.000 firmas antes del 15 de septiembre. ¡Ayúdanos, te necesitamos! Pásalo y anima a todo el mundo a firmar. ¡Queremos ganar Barcelona!<br>
+		<a id="fb_share_cast" href="#" class="facebook" title="facebook" rel="nofollow"><img src="https://guanyembarcelona.cat/wp-content/uploads/2014/facebook-24x24.png"></a> <a id="tw_share_cast" href="#" class="twitter" title="twitter" rel="nofollow"><img src="https://guanyembarcelona.cat/wp-content/uploads/2014/twitter-24x24.png"></a></p>
 	<?php
 	 	} 
 		if (isset($_POST['dni']) && ($error != '')) { ?> 
@@ -94,7 +96,7 @@
 	?>
         <h2>Firma el manifiesto:</h2>
         <p class="title">Para apoyar podéis validar la propuesta llenando el siguiente formulario. El proceso de validación se cerrará el 15 de septiembre. Durante este plazo, nos hemos propuesto recoger al menos 30.000 firmas electrónicas, de las cuales la mitad como mínimo tienen que ser de Barcelona ciudad.</p>
-		<form id="nuevo" action="nuevo.php" method="post">
+		<form id="nuevo" action="nuevo_cast.php" method="post">
 
 
                 <div class="half" id="grupo_nombre">

@@ -84,7 +84,9 @@
 
 		<div id="pagina" class="adhesiones">
 	<?php if (isset($_POST['dni']) && ($error == '')) { ?> 
-		<p class="aviso ok">Registrat amb èxit. Moltes gràcies!</p>
+		<p class="aviso ok"><strong>Moltes gràcies, la teva signatura s'ha registrat!</strong><br>
+		Ens hem proposat recollir-ne 30.000 abans del 15 de setembre. Ajuda'ns, et necessitem! Fes-ho córrer i anima tothom a firmar, volem guanyar Barcelona!<br>
+		<a id="fb_share" href="#" class="facebook" title="facebook" rel="nofollow"><img src="https://guanyembarcelona.cat/wp-content/uploads/2014/facebook-24x24.png"></a> <a id="tw_share" href="#" class="twitter" title="twitter" rel="nofollow"><img src="https://guanyembarcelona.cat/wp-content/uploads/2014/twitter-24x24.png"></a></p>
 	<?php
 	 	} 
 		if (isset($_POST['dni']) && ($error != '')) { ?> 
