@@ -126,4 +126,24 @@ $(function() {
 	$('.codigo_pais').each(function (indice,el) {
 		$(el).text(ciudades.damePais($(el).text()));
 	});
+
+	$('a#tw_share').click(function(){
+		window.open('https://twitter.com/intent/tweet?original_referer=https://guanyembarcelona.cat/signa/&text=Perquè el projecte Guanyem Barcelona es faci realitat es necessiten 30.000 signatures. Jo acabo de signar, i tu?&url=https://guanyembarcelona.cat/signa/', 'twitter_share', 'height=320, width=640, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no');
+		return false;
+	});
+
+	$('a#fb_share').click(function(){
+		window.open('https://www.facebook.com/sharer.php?u=https://guanyembarcelona.cat/signa/', 'facebook_share', 'height=320, width=640, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no');
+		return false;
+	});
+
+	$('a#tw_share_cast').click(function(){
+		window.open('https://twitter.com/intent/tweet?original_referer=https://guanyembarcelona.cat/es/firma/&text=Para que el proyecto Guanyem Barcelona se haga realidad se necesitan 30.000 firmas. Yo acabo de firmar ¿y tú?&url=https://guanyembarcelona.cat/es/firma/', 'twitter_share', 'height=320, width=640, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no');
+		return false;
+	});
+
+	$('a#fb_share_cast').click(function(){
+		window.open('https://www.facebook.com/sharer.php?u=https://guanyembarcelona.cat/es/firma/', 'facebook_share', 'height=320, width=640, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, directories=no, status=no');
+		return false;
+	});
 });
