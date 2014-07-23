@@ -154,12 +154,12 @@
 
             <div class="check">
 				<input id="visible" name="visible" type="hidden" value="1">
-                <input id="checkbox_visible" type="checkbox" checked>
+                <input id="checkbox_visible" type="checkbox">
                 <label>Vull que el meu suport sigui visible</label>
             </div>
             <div class="check">
 				<input id="boletin" name="boletin" type="hidden" value="1">
-                <input id="checkbox_boletin" type="checkbox" checked>
+                <input id="checkbox_boletin" type="checkbox">
                 <label>Vull mantenir-me informat via correu electrònic sobre la plataforma Guanyem Barcelona</label>
             </div>
 
