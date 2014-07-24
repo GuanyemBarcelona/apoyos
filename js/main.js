@@ -73,9 +73,9 @@ $(function() {
 	});
 	$('#checkbox_visible').on('change', function () {
 		if ($(this).is(':checked')) {
-			$('#visible').val("1");
-		} else {
 			$('#visible').val("0");
+		} else {
+			$('#visible').val("1");
 		}
 	});
 	$('#checkbox_boletin').on('change', function () {
